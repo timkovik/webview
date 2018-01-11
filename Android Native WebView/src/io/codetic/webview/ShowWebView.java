@@ -43,7 +43,7 @@ public class ShowWebView extends Activity {
         //Get webview
         webView = (WebView) findViewById(R.id.webView1);
         if(haveNetworkConnection()){
-        startWebView("http://codetic.net/demo/webview-app/");
+        startWebView("https://best-sponsor.com");
         } else {
             webView.loadUrl("file:///android_asset/error.html");
            }
